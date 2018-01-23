@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+</head>
+    <body>
+      
+          <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      
+      <a class="my-0 mr-md-auto btn btn-outline-primary" href="#">AngularJS</a>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="#!/page1">Page1</a>
+        <a class="p-2 text-dark" href="#!/page2">Page2</a>
+        
+      </nav>
+     
+    </div>
+<h1>Angular Starter med Bower</h1>
+<ng-view></ng-view>
+
+
+
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/angular-route/angular-route.js"></script>
+      <script src="app.js"></script>
+      <script src="page1/page1.js"></script>
+      <script src="page2/page2.js"></script>
+    </body>
+</html>
